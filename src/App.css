@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.coin-app {
+  /* background: rgb(24, 24, 24); */
+  /* color: white; */
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 3.5rem 0px;
+  width: auto;
+}
+
+.coin-text {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+
+  font-size: 28px;
+  padding-bottom: 24px;
+  letter-spacing: 1.2px;
+  color: #383838;
+  text-shadow: 13px 13px 20px #696969, -13px -13px 20px #ffffff;
+}
+.coin-name {
+  border: none;
+  outline: none;
+  background-color: #ecf0f3;
+  padding: 1rem 5rem 1rem 1rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+  font-family: "Roboto", sans-serif;
+  box-shadow: inset 8px 8px 8px #c3c4c4, inset -8px -8px 8px #f3f2f2;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
