@@ -1,2 +1,2 @@
-# baymax
-an application that can interact with the user and will help to provide an AI UX to the user.
+# CryptoFinder
+This application used the open api to fetch the current information and the data of the CryptoCurrencies.
